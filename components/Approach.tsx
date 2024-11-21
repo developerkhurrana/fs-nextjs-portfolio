@@ -6,7 +6,7 @@ import React from "react";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
+      <h1 className="heading text-white">
         My <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
@@ -21,7 +21,6 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
